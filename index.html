@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartClinic+ | Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body class="login-page">
+
+    <div class="login-container">
+
+        <div class="login-card">
+
+            <div class="logo">
+                <span>+</span>
+                <h1>SmartClinic+</h1>
+            </div>
+
+            <p class="login-subtitle">
+                Intelligent Healthcare Management System
+            </p>
+
+            <form onsubmit="login(event)">
+
+                <label>Email Address</label>
+                <input 
+                    type="email" 
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label>Password</label>
+                <input 
+                    type="password" 
+                    placeholder="Enter your password"
+                    required
+                >
+
+                <div class="remember-row">
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="primary-btn">
+                    Sign In
+                </button>
+
+            </form>
+
+            <p class="demo-text">
+                Demo system for SENG205
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
